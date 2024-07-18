@@ -1,6 +1,6 @@
 import React from 'react';
-import Header from './header';
-import Novousuario from "./novousuario";
+import Header from './Header';
+import Novousuario from "./Novousuario";
 
 class App extends React.Component {
     render() {
