@@ -1,10 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+
 import	'./img/favicon.ico';
 import './css/index.css';
+import './css/pure-min.css'
+import App from './components/App';
 
 
 ReactDOM.render(
-    <h1>Bem-vindo ao REACT!</h1>,
+    <App/>,
     document.querySelector('#main')
 )

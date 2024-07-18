@@ -5,7 +5,7 @@
   "scripts": {
     "webpack": "webpack",
     "dev": "set NODE_ENV=development && node_modules/webpack-dev-server/bin/webpack-dev-server.js",
-    "prd": "set NODE_ENV=production && node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "start": "set NODE_ENV=production && node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "build": "node_modules/webpack/bin/webpack.js"
   },
   "keywords": [],
